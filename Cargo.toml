@@ -1,0 +1,17 @@
+[package]
+name = "oauth-proxy"
+version = "0.1.0"
+authors = ["Tyler Jones"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+riker = "0.4.2"
+riker-patterns = "0.4.2"
+futures = "0.3.14"
+tokio = { version = "1", features = ["full"] }
+warp = "0.3"
+serde_derive = "1.0"
+serde = "1.0"
+serde_json = "1.0"
